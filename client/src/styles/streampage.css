@@ -1,0 +1,140 @@
+.video-room {
+    display: flex;
+    height: 100vh;
+    background-color: #111827;
+    color: white;
+  }
+  
+  .video-section {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #1f2937;
+  }
+  
+  .video-grid {
+    display: flex;
+  
+    gap: 10px;
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
+  .video-tile {
+    background: black;
+    border-radius: 8px;
+    width: 500px;
+    height: 800px;
+    object-fit: cover;
+  }
+  
+  .video-title {
+    background: black;
+    border-radius: 8px;
+    width: 500px;
+    height: 800px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-title .inner_section h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+  }
+  .video-title .inner_section p{
+    text-align: center;
+    font-weight: 200;
+    font-size: 12px;
+}
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+
+  }
+  
+  .control-btn {
+    padding: 10px 20px;
+    background-color: #374151;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .control-btn:hover {
+    background-color: #4b5563;
+  }
+  
+  .control-btn.leave {
+    background-color: #dc2626;
+    font-weight: 800;
+  }
+  
+  .chat-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #374151;
+    background-color: #111827;
+  }
+  
+  .chat-header {
+    padding: 15px;
+    border-bottom: 1px solid #374151;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .chat-form {
+    display: flex;
+    border-top: 1px solid #374151;
+    padding: 10px;
+  }
+  
+  .chat-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #1f2937;
+    color: white;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+  
+  .chat-send {
+    background-color: #2563eb;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .link{
+    margin-top: 10px;
+    width: 85%;
+    height: 30px;
+    background: #2563eb;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+   
+  }
+
+

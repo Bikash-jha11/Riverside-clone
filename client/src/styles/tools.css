@@ -1,0 +1,37 @@
+.section{
+    min-height: 200px;
+    
+}
+
+.section .container{
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3em;
+
+}
+
+.section .container .circle{
+    position:relative;
+    height: 55px;
+    width: 55px;
+    background-color: #383838;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.section .container .recording:hover{
+   background-color: red;
+}
+
+.section .container .circle .center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+    
+}

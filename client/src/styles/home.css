@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  
+
+}
+
+.leftslider {
+  min-width: 10%;
+  height:100vh;
+  padding:3em;
+  background-color: 	#181818;
+  box-sizing:border-box;
+
+}
+.main{
+  width: 100%;
+
+}

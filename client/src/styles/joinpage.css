@@ -1,0 +1,27 @@
+.top_section{
+    width: 100%;
+    min-height: 50px;
+ }
+
+ .config{
+  
+    min-height: 90vh;
+    display:flex;
+
+ }
+ .config .left_config{
+    min-width: 50%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .config .right_config{
+    min-width: 50%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+ }

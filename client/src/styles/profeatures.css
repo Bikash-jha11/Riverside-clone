@@ -1,0 +1,17 @@
+.main_section {
+  height: 450px;
+
+}
+
+.tools_section {
+  padding: 2em;
+}
+
+.tools_section h2 {
+  font-weight: 800;
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-between;
+}

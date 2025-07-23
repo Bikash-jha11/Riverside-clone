@@ -1,0 +1,59 @@
+.setting_config{
+    min-width: 350px;
+    min-height: 400px;
+   background-color: 		#101010;
+   border-radius: 5px;
+   
+}
+
+.setting_config .inner{
+
+
+}
+.setting_config .inner .preview{
+    width: 90%;
+    min-height: 200px;
+    border: 2px solid white;
+    margin: 1em;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 85%;
+    height: 20px;
+    background: rgb(150, 113, 255);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: 15px;
+       margin-top: 15px;
+  }
+  .dropdown span{
+    margin-left: 15px;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown-content p{
+    color: white;
+    border: 5px solid;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+

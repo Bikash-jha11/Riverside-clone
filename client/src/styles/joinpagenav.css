@@ -1,0 +1,40 @@
+.main{
+    position: relative;
+    display: flex;
+   width: 95%;
+   height:40px;
+   margin-left: 2%;
+
+ }
+
+ .left_section{
+    display: flex;
+
+    height:100%;
+    max-width: 400px;
+    gap:1em;
+  
+ }
+
+ .left_section h3{
+    display: inline;
+     margin-top: 20px;
+     font-weight: 900;
+    
+ }
+ .left_section .left_arrow{
+    margin-top: 20px;
+  }
+   .left_section h4{
+    display: inline;
+    margin-top: 22px;
+
+    
+ }
+
+ .right_section .question{
+  position: absolute;
+  right:10px;
+  top:25px;
+ }
+

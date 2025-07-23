@@ -1,0 +1,95 @@
+.center_section {
+  min-width: 500px;
+  min-height: 250px;
+}
+
+.center_section .small h5 {
+  max-height: 10px;
+  font-weight: 300;
+}
+.input {
+  text-align: left;
+  margin-top: 20px;
+}
+.input .inputBox {
+  margin-top: 5px;
+}
+
+.input .inputBox input {
+  width: 85%;
+  height: 20px;
+  background: #131419;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  color: orange;
+}
+
+.input .inputBox input::placeholder {
+  color: #555;
+  font-size: 18px;
+}
+.btn_group {
+  margin-top: 15px;
+  margin-left: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn_group .btn {
+  width: 40%;
+  height: 20px;
+  background: orange;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 8px;
+  font-weight: 800;
+
+  color: orange;
+}
+
+.btn_group .btn button {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: white;
+  font-weight: 800;
+}
+
+.joinbtn {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.joinbtn .btn {
+  width: 85%;
+  height: 20px;
+  background: orange;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 8px;
+  font-weight: 800;
+
+  color: orange;
+}
+
+.joinbtn .btn button {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: white;
+  font-weight: 800;
+}
+#btn {
+  margin-left: 180px;
+}
